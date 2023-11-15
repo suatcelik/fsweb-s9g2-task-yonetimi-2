@@ -35,62 +35,63 @@
 
 /* TASK */
 .task {
-  padding: 1.5rem;
+  /* padding: 1.5rem;
   background-color: #fff;
   border-radius: 5px;
   line-height: 1.5;
   margin-top: 1rem;
-  box-shadow: 0 4px 5px 0 rgb(0 0 0 / 10%);
+  box-shadow: 0 4px 5px 0 rgb(0 0 0 / 10%); */
 }
 
 .task h3 {
-  font-size: 18px;
-  color: #c8781a;
+  /* font-size: 18px;
+  color: #c8781a; */
 }
 
 .task p {
-  padding: 0.5rem 0 0.75rem;
+  /* padding: 0.5rem 0 0.75rem;
   font-size: 14px;
-  color: #444;
+  color: #444; */
+  @apply pt-2 px-0 pb-3 text-sm text-[#444];
 }
 
 .task button {
-  display: block;
+  /* display: block;
   padding: 8px 12px;
   margin-left: auto;
   background-color: #fecc91;
   box-shadow: 0 4px 5px 0 rgb(0 0 0 / 5%);
   border-radius: 3px;
   border: 0;
-  cursor: pointer;
+  cursor: pointer; */
 }
 
 .pill {
-  display: inline-block;
+  /* display: inline-block;
   padding: 5px 12px;
   font-size: 14px;
   border: 1px solid #ccc;
   margin-right: 4px;
   margin-bottom: 6px;
-  border-radius: 30px;
+  border-radius: 30px; */
 }
 
 .deadline {
-  font-size: 12px;
-  padding-top: 4px;
+  /* font-size: 12px;
+  padding-top: 4px; */
 }
 
 .deadline span {
-  padding: 3px 8px;
+  /* padding: 3px 8px;
   border-radius: 2px;
-  display: inline-block;
+  display: inline-block; */
 }
 
 .normal {
-  background-color: #ffd9d4;
+  background-color: #d4d7ff;
 }
 .urgent {
-  background-color: #d4d7ff;
+  background-color: #ffd9d4;
 }
 /* TASK */
 
